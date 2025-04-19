@@ -1,100 +1,60 @@
 <html>
 <head>
 <style>
-body {text-align: center; font-family: 'Brush Script MT', cursive;}
+body {text-align: center;  margin-top: 50%; font-size: 3.0em; background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
 /* h1 {text-align: center;}
 h3 {text-align: center;}
 p {text-align: center;}
 div {text-align: center;} */
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 46px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+a:link, a:visited {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+}
 </style>
 <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
-<br>
-<br>
-<H3>&#xFDFD;</H3>
-<br>
-<h3>THE WEDDING OF</h3>
-<h1>Swan Khant Lwin Oo</h1>
-<h2>&hearts;</h2>
-<h1>Thazin Htun</h1>
-<h3>&#128467; 20 MAY 2025 (TUESDAY)</h3>
-<h3>&#x1F550; 10AM - 12 PM</h3>
-<h3>&#128205; THE FOUNDATION OF ISLAMIC CENTER OF THAILAND MASJID</h3>
-<h3>BANGKOK, THAILAND</h3>
-<BR>
-<hr>
-<BR>
-<h3>As Allah (SWT) said in the noble Quran</h3>
-<H3>هُنَّ لِباسٌ لَكُم وَأَنتُم لِباسٌ لَهُنَّ</H3>
-<H3>“Your spouses are a garment for you as you are for them”
-(Surah Al-Baqarah, 2:187)
-</H3>
-<br>
-<h3>With Heart Full of Joys and Gratuite to Allah (SWT)</h3>
-<br>
-<h3>U Win Lwin Oo</h3>
-<h3>&</h3>
-<h3>Daw Myo Ma Ma</h3>
-<br>
-<h3>Together With</h3>
-<br>
-<h3>U Tin Tun Oo</h3>
-<h3>&</h3>
-<h3>Daw Than Hla</h3>
-<br>
-<h3>Would Like to Invite</h3>
-<h3>To The Wedding Reception of</h3>
-<h3>Our Eldest Son and Eldest Daughter</h3>
-<br>
-<h1>Swan Khant Lwin Oo</h1>
-<h1>(Muhammad Ossama)</h1>
-<h2>&hearts;</h2>
-<h1>Thazin Htun</h1>
-<h1>(Abida)</h1>
-<br>
-<hr>
-<br>
-<h2>Inshallah, We Really Hope to See You in</h2>
-<br>
-<h2 id="demo"></h2>
-<br>
-<h3>&#128205; THE FOUNDATION OF ISLAMIC CENTER OF THAILAND MASJID</h3>
-<h3>BANGKOK, THAILAND</h3>
-<br>
-
-
-
-<script>
-    // Set the date we're counting down to
-    var countDownDate = new Date("May 20, 2025 10:00:00").getTime();
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- <h3>السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</h3>
+    <h3>We Would Like to Invite You To Our Wedding</h3> -->
+    <a href="home.html"><button class="button">Open</button></a>
     
-    // Update the count down every 1 second
-    var x = setInterval(function() {
-    
-      // Get today's date and time
-      var now = new Date().getTime();
-        
-      // Find the distance between now and the count down date
-      var distance = countDownDate - now;
-        
-      // Time calculations for days, hours, minutes and seconds
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        
-      // Output the result in an element with id="demo"
-      document.getElementById("demo").innerHTML = days + " Days " + hours + " Hours "
-      + minutes + " Minutes";
-        
-      // If the count down is over, write some text 
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
-      }
-    }, 1000);
-</script>
+
 </body>
 </html>	
-
